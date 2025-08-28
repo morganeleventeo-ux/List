@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Colorful To-Do List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+    }
+    ul {
+      list-style: none; /* remove default bullets */
+      padding: 0;
+      max-width: 300px;
+    }
+    li {
+      font-size: 18px;
+      margin: 12px 0;
+      padding: 10px;
+      border-radius: 12px;
+      color: white;
+      display: flex;
+      align-items: center;
+    }
+    li img {
+      width: 24px;
+      margin-right: 10px;
+    }
+    li:nth-child(1) { background: #ff6b6b; }   /* red */
+    li:nth-child(2) { background: #4ecdc4; }   /* teal */
+    li:nth-child(3) { background: #ffa502; }   /* orange */
+  </style>
+</head>
+<body>
+  <h2>To-Do List ✅</h2>
+  <ul>
+    <li><img src="https://cdn-icons-png.flaticon.com/512/992/992651.png"> Finish homework</li>
+    <li><img src="https://cdn-icons-png.flaticon.com/512/616/616408.png"> Walk the dog</li>
+    <li><img src="https://cdn-icons-png.flaticon.com/512/69/69524.png"> Play football</li>
+  </ul>
+</body>
+</html>
